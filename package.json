@@ -1,24 +1,17 @@
 {
-  "name": "AlanPazettoPortfolio",
-  "version": "0.1.0",
-  "devDependencies": {
-    "connect-livereload": "^0.5.3",
-    "grunt": "~0.4.2",
-    "grunt-browserify2": "^0.1.8",
-    "grunt-cli": "^0.1.13",
-    "grunt-concurrent": "1.0.0",
-    "grunt-connect": "^0.2.0",
-    "grunt-contrib-connect": "^0.10.1",
-    "grunt-contrib-copy": "^0.8.2",
-    "grunt-contrib-sass": "^0.9.2",
-    "grunt-contrib-uglify": "^0.11.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^1.0.0"
-  },
-  "main": "Gruntfile.js",
+  "name": "alancpazetto.com",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "astro": "^4.12.2",
+    "@astrojs/check": "^0.8.2",
+    "typescript": "^5.5.4"
+  }
 }
